@@ -17,11 +17,11 @@ class PoseSetter(Node):
         )
 
         # ✅ Fixed initial pose from amcl_pose
-        self.x = -0.540629506111145
-        self.y = -0.2792171835899353
+        self.x = 0.376731276512146
+        self.y = 0.47512704133987427
 
-        z = 0.8103257103648465
-        w = 0.5859797292754305
+        z = -0.9946878957628598
+        w = 0.10293682539720335
         
         yaw_rad = math.atan2(2.0 * (w * z), 1.0 - 2.0 * (z * z))
         yaw_deg = math.degrees(yaw_rad)

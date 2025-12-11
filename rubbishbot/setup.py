@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'mission_manager = rubbishbot.mission_manager:main',
             'pose_setter = rubbishbot.pose_setter:main',
+            'detector = rubbishbot.object_detector:main',
         ],
     },
 )
