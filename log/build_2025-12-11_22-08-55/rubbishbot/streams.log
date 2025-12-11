@@ -1,0 +1,59 @@
+[2.946s] Invoking command in '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/rubbishbot': PYTHONPATH=/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/rubbishbot build --build-base /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build install --record /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/install.log --install-scripts $base/lib/rubbishbot --single-version-externally-managed
+[3.273s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.274s] !!
+[3.274s] 
+[3.274s]         ********************************************************************************
+[3.274s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.274s]         versions. Please use the underscore name 'script_dir' instead.
+[3.275s] 
+[3.275s]         This deprecation is overdue, please update your project and remove deprecated
+[3.275s]         calls to avoid build errors in the future.
+[3.275s] 
+[3.275s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.275s]         ********************************************************************************
+[3.275s] 
+[3.275s] !!
+[3.276s]   opt = self.warn_dash_deprecation(opt, section)
+[3.467s] running egg_info
+[3.496s] writing ../build/rubbishbot/rubbishbot.egg-info/PKG-INFO
+[3.498s] writing dependency_links to ../build/rubbishbot/rubbishbot.egg-info/dependency_links.txt
+[3.498s] writing entry points to ../build/rubbishbot/rubbishbot.egg-info/entry_points.txt
+[3.499s] writing requirements to ../build/rubbishbot/rubbishbot.egg-info/requires.txt
+[3.499s] writing top-level names to ../build/rubbishbot/rubbishbot.egg-info/top_level.txt
+[3.782s] reading manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'
+[3.784s] writing manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'
+[3.784s] running build
+[3.785s] running build_py
+[3.785s] copying rubbishbot/mission_manager.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot
+[3.786s] copying rubbishbot/object_detector.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot
+[3.786s] copying rubbishbot/pose_setter.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot
+[3.787s] copying rubbishbot/__init__.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot
+[3.787s] running install
+[3.788s] /home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.789s] !!
+[3.789s] 
+[3.789s]         ********************************************************************************
+[3.789s]         Please avoid running ``setup.py`` directly.
+[3.789s]         Instead, use pypa/build, pypa/installer or other
+[3.790s]         standards-based tools.
+[3.790s] 
+[3.790s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.790s]         ********************************************************************************
+[3.790s] 
+[3.791s] !!
+[3.791s]   self.initialize_options()
+[3.800s] running install_lib
+[3.832s] copying /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot/object_detector.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot
+[3.834s] byte-compiling /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot/object_detector.py to object_detector.cpython-38.pyc
+[3.838s] running install_data
+[3.870s] copying resource/rubbishbot -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/share/ament_index/resource_index/packages
+[3.872s] copying package.xml -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/share/rubbishbot
+[3.874s] running install_egg_info
+[3.917s] removing '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info' (and everything under it)
+[3.920s] Copying ../build/rubbishbot/rubbishbot.egg-info to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info
+[3.924s] running install_scripts
+[4.014s] Installing detector script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot
+[4.016s] Installing mission_manager script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot
+[4.018s] Installing pose_setter script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot
+[4.019s] writing list of installed files to '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/install.log'
+[4.117s] Invoked command in '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/rubbishbot' returned '0': PYTHONPATH=/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/rubbishbot build --build-base /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build install --record /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/install.log --install-scripts $base/lib/rubbishbot --single-version-externally-managed

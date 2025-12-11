@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001300] (rubbishbot) JobQueued: {'identifier': 'rubbishbot', 'dependencies': OrderedDict()}
+[0.001707] (rubbishbot) JobStarted: {'identifier': 'rubbishbot'}
+[0.099419] (-) TimerEvent: {}
+[0.202306] (-) TimerEvent: {}
+[0.303949] (-) TimerEvent: {}
+[0.405340] (-) TimerEvent: {}
+[0.506299] (-) TimerEvent: {}
+[0.607778] (-) TimerEvent: {}
+[0.708593] (-) TimerEvent: {}
+[0.809372] (-) TimerEvent: {}
+[0.909987] (-) TimerEvent: {}
+[1.010649] (-) TimerEvent: {}
+[1.111278] (-) TimerEvent: {}
+[1.212112] (-) TimerEvent: {}
+[1.313075] (-) TimerEvent: {}
+[1.414934] (-) TimerEvent: {}
+[1.515705] (-) TimerEvent: {}
+[1.616592] (-) TimerEvent: {}
+[1.717386] (-) TimerEvent: {}
+[1.818206] (-) TimerEvent: {}
+[1.918974] (-) TimerEvent: {}
+[2.019773] (-) TimerEvent: {}
+[2.120519] (-) TimerEvent: {}
+[2.221124] (-) TimerEvent: {}
+[2.322008] (-) TimerEvent: {}
+[2.422609] (-) TimerEvent: {}
+[2.523214] (-) TimerEvent: {}
+[2.623844] (-) TimerEvent: {}
+[2.724501] (-) TimerEvent: {}
+[2.825099] (-) TimerEvent: {}
+[2.925711] (-) TimerEvent: {}
+[3.003227] (rubbishbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/rubbishbot', 'build', '--build-base', '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build', 'install', '--record', '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/install.log', '--install-scripts', '$base/lib/rubbishbot', '--single-version-externally-managed'], 'cwd': '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/rubbishbot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'agilex', 'SSH_AGENT_PID': '1873', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/agilex', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CYCLONEDDS_URI': 'file:///var/lib/theconstruct.rrl/cyclonedds.xml', 'OLDPWD': '/home/agilex/ros2_rubbishbot_ws/src', 'TERM_PROGRAM_VERSION': '1.81.0', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv_with_tensorrt) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4425', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'agilex', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1422725019805', 'JOURNAL_STREAM': '8:52577', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/agilex/ros2_rubbishbot_ws/src/venv_with_tensorrt/bin:/usr/local/cuda-11.4/bin:/home/agilex/.local/bin:/usr/local/cuda-11.4/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/master:@/tmp/.ICE-unix/1925,unix/master:/tmp/.ICE-unix/1925', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/var/lib/theconstruct.rrl/fastdds_husarnet.xml', 'INVOCATION_ID': '57d5940a219e49d898ff60d567e42252', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1d59667cd7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://master:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/agilex/ros2_rubbishbot_ws/src/venv_with_tensorrt', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot', 'ROS_IPV6': 'on', 'CUDA_HOME': '/usr/local/cuda-11.4', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'master', 'COLCON': '1', 'JETSON_JETPACK': '5.1.2', 'JETSON_P_NUMBER': 'p3767-0003', 'PYTHONPATH': '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages:'}, 'shell': False}
+[3.025913] (-) TimerEvent: {}
+[3.126736] (-) TimerEvent: {}
+[3.227325] (-) TimerEvent: {}
+[3.291189] (rubbishbot) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.291852] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[3.292031] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.292183] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.292326] (rubbishbot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.292464] (rubbishbot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.292595] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.292724] (rubbishbot) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.292853] (rubbishbot) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.292981] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.293106] (rubbishbot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.293232] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.293374] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.293500] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[3.293625] (rubbishbot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.335484] (-) TimerEvent: {}
+[3.436106] (-) TimerEvent: {}
+[3.462116] (rubbishbot) StdoutLine: {'line': b'running egg_info\n'}
+[3.490000] (rubbishbot) StdoutLine: {'line': b'writing ../build/rubbishbot/rubbishbot.egg-info/PKG-INFO\n'}
+[3.491323] (rubbishbot) StdoutLine: {'line': b'writing dependency_links to ../build/rubbishbot/rubbishbot.egg-info/dependency_links.txt\n'}
+[3.491898] (rubbishbot) StdoutLine: {'line': b'writing entry points to ../build/rubbishbot/rubbishbot.egg-info/entry_points.txt\n'}
+[3.492319] (rubbishbot) StdoutLine: {'line': b'writing requirements to ../build/rubbishbot/rubbishbot.egg-info/requires.txt\n'}
+[3.492598] (rubbishbot) StdoutLine: {'line': b'writing top-level names to ../build/rubbishbot/rubbishbot.egg-info/top_level.txt\n'}
+[3.536265] (-) TimerEvent: {}
+[3.636951] (-) TimerEvent: {}
+[3.737697] (-) TimerEvent: {}
+[3.741023] (rubbishbot) StdoutLine: {'line': b"reading manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'\n"}
+[3.742977] (rubbishbot) StdoutLine: {'line': b"writing manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'\n"}
+[3.743441] (rubbishbot) StdoutLine: {'line': b'running build\n'}
+[3.743817] (rubbishbot) StdoutLine: {'line': b'running build_py\n'}
+[3.744092] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/mission_manager.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot\n'}
+[3.744820] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/object_detector.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot\n'}
+[3.745363] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/pose_setter.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot\n'}
+[3.746208] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/__init__.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot\n'}
+[3.747052] (rubbishbot) StdoutLine: {'line': b'running install\n'}
+[3.747841] (rubbishbot) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[3.748085] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[3.748274] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.748455] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.748632] (rubbishbot) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[3.748800] (rubbishbot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[3.748966] (rubbishbot) StderrLine: {'line': b'        standards-based tools.\n'}
+[3.749131] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.749292] (rubbishbot) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[3.749453] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.749613] (rubbishbot) StderrLine: {'line': b'\n'}
+[3.749771] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[3.749968] (rubbishbot) StderrLine: {'line': b'  self.initialize_options()\n'}
+[3.759864] (rubbishbot) StdoutLine: {'line': b'running install_lib\n'}
+[3.790663] (rubbishbot) StdoutLine: {'line': b'copying /home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/build/lib/rubbishbot/object_detector.py -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot\n'}
+[3.791951] (rubbishbot) StdoutLine: {'line': b'byte-compiling /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot/object_detector.py to object_detector.cpython-38.pyc\n'}
+[3.795979] (rubbishbot) StdoutLine: {'line': b'running install_data\n'}
+[3.823623] (rubbishbot) StdoutLine: {'line': b'copying resource/rubbishbot -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/share/ament_index/resource_index/packages\n'}
+[3.824211] (rubbishbot) StdoutLine: {'line': b'copying package.xml -> /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/share/rubbishbot\n'}
+[3.824496] (rubbishbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.837768] (-) TimerEvent: {}
+[3.856513] (rubbishbot) StdoutLine: {'line': b"removing '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.857363] (rubbishbot) StdoutLine: {'line': b'Copying ../build/rubbishbot/rubbishbot.egg-info to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info\n'}
+[3.859581] (rubbishbot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.935848] (rubbishbot) StdoutLine: {'line': b'Installing detector script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot\n'}
+[3.936600] (rubbishbot) StdoutLine: {'line': b'Installing mission_manager script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot\n'}
+[3.936998] (rubbishbot) StdoutLine: {'line': b'Installing pose_setter script to /home/agilex/ros2_rubbishbot_ws/src/Trashbot/install/rubbishbot/lib/rubbishbot\n'}
+[3.937568] (rubbishbot) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/ros2_rubbishbot_ws/src/Trashbot/build/rubbishbot/install.log'\n"}
+[3.937875] (-) TimerEvent: {}
+[4.028101] (rubbishbot) CommandEnded: {'returncode': 0}
+[4.042030] (-) TimerEvent: {}
+[4.143503] (-) TimerEvent: {}
+[4.244540] (-) TimerEvent: {}
+[4.346171] (-) TimerEvent: {}
+[4.449354] (-) TimerEvent: {}
+[4.550471] (-) TimerEvent: {}
+[4.652816] (-) TimerEvent: {}
+[4.742330] (rubbishbot) JobEnded: {'identifier': 'rubbishbot', 'rc': 0}
+[4.744477] (-) EventReactorShutdown: {}
