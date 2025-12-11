@@ -1,0 +1,155 @@
+[14.586s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[14.586s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8a717af0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8a717af0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8a322d90>)[0m
+[15.186s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[15.187s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[15.188s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[15.188s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[15.188s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[15.188s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[15.189s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/agilex/ros2_rubbishbot_ws/src'
+[15.189s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[15.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[15.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[15.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[15.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[15.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[15.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[15.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[15.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[15.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[15.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[15.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[15.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[15.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[15.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[15.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[15.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[15.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[15.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[15.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[15.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[15.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[15.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[15.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['ignore', 'ignore_ament_install']
+[15.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'ignore'
+[15.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'ignore_ament_install'
+[15.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['colcon_pkg']
+[15.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'colcon_pkg'
+[15.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['colcon_meta']
+[15.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'colcon_meta'
+[15.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['ros']
+[15.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'ros'
+[15.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['cmake', 'python']
+[15.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'cmake'
+[15.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'python'
+[15.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extensions ['python_setup_py']
+[15.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests) by extension 'python_setup_py'
+[15.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['ignore', 'ignore_ament_install']
+[15.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'ignore'
+[15.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'ignore_ament_install'
+[15.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['colcon_pkg']
+[15.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'colcon_pkg'
+[15.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['colcon_meta']
+[15.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'colcon_meta'
+[15.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['ros']
+[15.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'ros'
+[15.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['cmake', 'python']
+[15.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'cmake'
+[15.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'python'
+[15.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extensions ['python_setup_py']
+[15.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_navigation_tests/nav_handler) by extension 'python_setup_py'
+[15.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extensions ['ignore', 'ignore_ament_install']
+[15.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extension 'ignore'
+[15.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extension 'ignore_ament_install'
+[15.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extensions ['colcon_pkg']
+[15.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extension 'colcon_pkg'
+[15.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extensions ['colcon_meta']
+[15.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extension 'colcon_meta'
+[15.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extensions ['ros']
+[15.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rubbishbot) by extension 'ros'
+[15.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'rubbishbot' with type 'ros.ament_python' and name 'rubbishbot'[0m
+[15.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[15.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[15.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[15.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[15.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[15.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[15.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[15.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[15.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[15.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[15.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[15.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[15.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[16.599s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[16.599s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[17.112s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 73 installed packages in /home/agilex/limo_ros2_ws/install[0m
+[17.366s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 358 installed packages in /opt/ros/foxy[0m
+[17.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[18.018s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_args' from command line to 'None'
+[18.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_target' from command line to 'None'
+[18.021s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_clean_cache' from command line to 'False'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_clean_first' from command line to 'False'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'cmake_force_configure' from command line to 'False'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'ament_cmake_args' from command line to 'None'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'catkin_cmake_args' from command line to 'None'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rubbishbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.022s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rubbishbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot', 'merge_install': False, 'path': '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot', 'symlink_install': False, 'test_result_base': None}[0m
+[18.281s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[18.536s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[18.536s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot' with build type 'ament_python'
+[18.537s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rubbishbot', 'ament_prefix_path')
+[18.819s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[18.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/ament_prefix_path.ps1'
+[18.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/ament_prefix_path.dsv'
+[18.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/ament_prefix_path.sh'
+[19.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.099s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[20.639s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot'
+[20.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.929s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[23.614s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot': PYTHONPATH=/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rubbishbot build --build-base /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build install --record /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/install.log --install-scripts $base/lib/rubbishbot --single-version-externally-managed[0m
+[25.077s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot' returned '0': PYTHONPATH=/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rubbishbot build --build-base /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build install --record /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/install.log --install-scripts $base/lib/rubbishbot --single-version-externally-managed[0m
+[25.375s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot' for CMake module files
+[25.376s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot' for CMake config files
+[25.378s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib'
+[25.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/bin'
+[25.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/pkgconfig/rubbishbot.pc'
+[25.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages'
+[25.379s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rubbishbot', 'pythonpath')
+[25.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/pythonpath.ps1'
+[25.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/pythonpath.dsv'
+[25.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/hook/pythonpath.sh'
+[25.650s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/bin'
+[25.650s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rubbishbot)
+[25.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/package.ps1'
+[25.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/package.dsv'
+[25.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/package.sh'
+[25.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/package.bash'
+[25.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot/package.zsh'
+[25.922s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/colcon-core/packages/rubbishbot)
+[25.925s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[25.926s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[25.927s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[25.927s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[26.231s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.231s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.231s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[26.271s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[26.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agilex/ros2_rubbishbot_ws/src/install/local_setup.ps1'
+[26.571s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agilex/ros2_rubbishbot_ws/src/install/_local_setup_util_ps1.py'
+[26.573s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agilex/ros2_rubbishbot_ws/src/install/setup.ps1'
+[26.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agilex/ros2_rubbishbot_ws/src/install/local_setup.sh'
+[26.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agilex/ros2_rubbishbot_ws/src/install/_local_setup_util_sh.py'
+[26.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agilex/ros2_rubbishbot_ws/src/install/setup.sh'
+[27.102s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agilex/ros2_rubbishbot_ws/src/install/local_setup.bash'
+[27.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agilex/ros2_rubbishbot_ws/src/install/setup.bash'
+[27.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agilex/ros2_rubbishbot_ws/src/install/local_setup.zsh'
+[27.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agilex/ros2_rubbishbot_ws/src/install/setup.zsh'

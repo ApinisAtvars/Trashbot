@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001443] (rubbishbot) JobQueued: {'identifier': 'rubbishbot', 'dependencies': OrderedDict()}
+[0.001564] (rubbishbot) JobStarted: {'identifier': 'rubbishbot'}
+[0.099242] (-) TimerEvent: {}
+[0.201616] (-) TimerEvent: {}
+[0.302960] (-) TimerEvent: {}
+[0.403929] (-) TimerEvent: {}
+[0.505958] (-) TimerEvent: {}
+[0.608735] (-) TimerEvent: {}
+[0.709462] (-) TimerEvent: {}
+[0.811327] (-) TimerEvent: {}
+[0.911974] (-) TimerEvent: {}
+[1.014555] (-) TimerEvent: {}
+[1.115085] (-) TimerEvent: {}
+[1.215887] (-) TimerEvent: {}
+[1.317099] (-) TimerEvent: {}
+[1.418646] (-) TimerEvent: {}
+[1.519688] (-) TimerEvent: {}
+[1.621904] (-) TimerEvent: {}
+[1.724198] (-) TimerEvent: {}
+[1.824842] (-) TimerEvent: {}
+[1.925764] (-) TimerEvent: {}
+[2.026389] (-) TimerEvent: {}
+[2.127032] (-) TimerEvent: {}
+[2.227636] (-) TimerEvent: {}
+[2.328284] (-) TimerEvent: {}
+[2.428995] (-) TimerEvent: {}
+[2.530915] (-) TimerEvent: {}
+[2.632189] (-) TimerEvent: {}
+[2.733212] (-) TimerEvent: {}
+[2.834922] (-) TimerEvent: {}
+[2.936186] (-) TimerEvent: {}
+[3.037181] (-) TimerEvent: {}
+[3.137833] (-) TimerEvent: {}
+[3.239700] (-) TimerEvent: {}
+[3.340640] (-) TimerEvent: {}
+[3.441801] (-) TimerEvent: {}
+[3.542352] (-) TimerEvent: {}
+[3.643232] (-) TimerEvent: {}
+[3.743836] (-) TimerEvent: {}
+[3.844495] (-) TimerEvent: {}
+[3.945324] (-) TimerEvent: {}
+[4.046088] (-) TimerEvent: {}
+[4.146718] (-) TimerEvent: {}
+[4.247360] (-) TimerEvent: {}
+[4.348039] (-) TimerEvent: {}
+[4.448647] (-) TimerEvent: {}
+[4.549240] (-) TimerEvent: {}
+[4.649821] (-) TimerEvent: {}
+[4.750454] (-) TimerEvent: {}
+[4.851082] (-) TimerEvent: {}
+[4.951725] (-) TimerEvent: {}
+[5.052385] (-) TimerEvent: {}
+[5.153007] (-) TimerEvent: {}
+[5.253636] (-) TimerEvent: {}
+[5.354519] (-) TimerEvent: {}
+[5.455158] (-) TimerEvent: {}
+[5.555880] (-) TimerEvent: {}
+[5.583054] (rubbishbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/rubbishbot', 'build', '--build-base', '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build', 'install', '--record', '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/install.log', '--install-scripts', '$base/lib/rubbishbot', '--single-version-externally-managed'], 'cwd': '/home/agilex/ros2_rubbishbot_ws/src/rubbishbot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'agilex', 'SSH_AGENT_PID': '1868', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/agilex/limo_ros2_ws/install/teb_local_planner/lib:/home/agilex/limo_ros2_ws/install/teb_msgs/lib:/home/agilex/limo_ros2_ws/install/smac_planner/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera/lib:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_controller/lib:/home/agilex/limo_ros2_ws/install/dwb_plugins/lib:/home/agilex/limo_ros2_ws/install/dwb_critics/lib:/home/agilex/limo_ros2_ws/install/dwb_core/lib:/home/agilex/limo_ros2_ws/install/nav_2d_utils/lib:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower/lib:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/limo_ros2_ws/install/nav2_recoveries/lib:/home/agilex/limo_ros2_ws/install/nav2_planner/lib:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner/lib:/home/agilex/limo_ros2_ws/install/costmap_queue/lib:/home/agilex/limo_ros2_ws/install/costmap_converter/lib:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/lib:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins/lib:/home/agilex/limo_ros2_ws/install/nav2_map_server/lib:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager/lib:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator/lib:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree/lib:/home/agilex/limo_ros2_ws/install/nav2_amcl/lib:/home/agilex/limo_ros2_ws/install/nav2_util/lib:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib:/home/agilex/limo_ros2_ws/install/limo_msgs/lib:/home/agilex/limo_ros2_ws/install/hand_pose_msgs/lib:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/agilex', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CYCLONEDDS_URI': 'file:///var/lib/theconstruct.rrl/cyclonedds.xml', 'OLDPWD': '/home/agilex/ros2_rubbishbot_ws/src/src', 'TERM_PROGRAM_VERSION': '1.81.0', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.4.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/agilex/ros2_rubbishbot_ws/src/install:/home/agilex/limo_ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'agilex', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1422725019805', 'JOURNAL_STREAM': '8:52594', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin:/home/agilex/limo_ros2_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/master:@/tmp/.ICE-unix/1928,unix/master:/tmp/.ICE-unix/1928', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/var/lib/theconstruct.rrl/fastdds_husarnet.xml', 'INVOCATION_ID': '4a43dacf035d477a8ece60ddb8734f9d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2331412_51b4_4c30_a3e2_392e98cc0f80', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1d59667cd7.sock', 'GNOME_TERMINAL_SERVICE': ':1.81', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/ros2_trt_pose_hand:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_m750:/home/agilex/limo_ros2_ws/install/myarm_c650:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/hand_pose_msgs:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://master:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot', 'ROS_IPV6': 'on', 'CUDA_HOME': '/usr/local/cuda-11.4', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/prefix_override:/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages:/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ultraarm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/teb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/ros2_trt_pose_hand/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_260/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_630/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_600/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_320/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280jn/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_280/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_m750/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_c650/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/myarm_300/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_pi/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_communication/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mybuddy/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mycobot_description/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/mecharm_interfaces/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/hand_pose_msgs/lib/python3.8/site-packages:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': 'master', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/tf_test:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/orbbec_description:/home/agilex/limo_ros2_ws/install/orbbec_camera:/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/mypalletizer_interfaces:/home/agilex/limo_ros2_ws/install/mycobot_interfaces:/home/agilex/limo_ros2_ws/install/mecharm_interfaces:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/hand_pose_msgs:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs', 'JETSON_P_NUMBER': 'p3767-0003'}, 'shell': False}
+[5.656086] (-) TimerEvent: {}
+[5.756832] (-) TimerEvent: {}
+[5.857455] (-) TimerEvent: {}
+[5.958060] (-) TimerEvent: {}
+[6.047536] (rubbishbot) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.048219] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[6.048403] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.048559] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.048707] (rubbishbot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.048851] (rubbishbot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.048988] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.049252] (rubbishbot) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[6.053045] (rubbishbot) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[6.053332] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.053567] (rubbishbot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.053748] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.053903] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.054046] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[6.054182] (rubbishbot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.058468] (-) TimerEvent: {}
+[6.159873] (-) TimerEvent: {}
+[6.260515] (-) TimerEvent: {}
+[6.325403] (rubbishbot) StdoutLine: {'line': b'running egg_info\n'}
+[6.360673] (-) TimerEvent: {}
+[6.372155] (rubbishbot) StdoutLine: {'line': b'writing ../build/rubbishbot/rubbishbot.egg-info/PKG-INFO\n'}
+[6.374083] (rubbishbot) StdoutLine: {'line': b'writing dependency_links to ../build/rubbishbot/rubbishbot.egg-info/dependency_links.txt\n'}
+[6.376532] (rubbishbot) StdoutLine: {'line': b'writing entry points to ../build/rubbishbot/rubbishbot.egg-info/entry_points.txt\n'}
+[6.377972] (rubbishbot) StdoutLine: {'line': b'writing requirements to ../build/rubbishbot/rubbishbot.egg-info/requires.txt\n'}
+[6.380036] (rubbishbot) StdoutLine: {'line': b'writing top-level names to ../build/rubbishbot/rubbishbot.egg-info/top_level.txt\n'}
+[6.460841] (-) TimerEvent: {}
+[6.561889] (-) TimerEvent: {}
+[6.662553] (-) TimerEvent: {}
+[6.742131] (rubbishbot) StdoutLine: {'line': b"reading manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'\n"}
+[6.744023] (rubbishbot) StdoutLine: {'line': b"writing manifest file '../build/rubbishbot/rubbishbot.egg-info/SOURCES.txt'\n"}
+[6.745156] (rubbishbot) StdoutLine: {'line': b'running build\n'}
+[6.745434] (rubbishbot) StdoutLine: {'line': b'running build_py\n'}
+[6.745614] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/mission_manager.py -> /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build/lib/rubbishbot\n'}
+[6.747256] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/pose_setter.py -> /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build/lib/rubbishbot\n'}
+[6.747494] (rubbishbot) StdoutLine: {'line': b'copying rubbishbot/__init__.py -> /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build/lib/rubbishbot\n'}
+[6.747662] (rubbishbot) StderrLine: {'line': b'/home/agilex/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[6.747831] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[6.747975] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.748114] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.748253] (rubbishbot) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[6.748393] (rubbishbot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[6.748527] (rubbishbot) StderrLine: {'line': b'        standards-based tools.\n'}
+[6.748659] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.748789] (rubbishbot) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[6.748935] (rubbishbot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.749064] (rubbishbot) StderrLine: {'line': b'\n'}
+[6.749192] (rubbishbot) StderrLine: {'line': b'!!\n'}
+[6.749319] (rubbishbot) StderrLine: {'line': b'  self.initialize_options()\n'}
+[6.749448] (rubbishbot) StdoutLine: {'line': b'running install\n'}
+[6.761785] (rubbishbot) StdoutLine: {'line': b'running install_lib\n'}
+[6.762623] (-) TimerEvent: {}
+[6.813650] (rubbishbot) StdoutLine: {'line': b'copying /home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/build/lib/rubbishbot/mission_manager.py -> /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages/rubbishbot\n'}
+[6.816363] (rubbishbot) StdoutLine: {'line': b'byte-compiling /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages/rubbishbot/mission_manager.py to mission_manager.cpython-38.pyc\n'}
+[6.819468] (rubbishbot) StdoutLine: {'line': b'running install_data\n'}
+[6.862775] (-) TimerEvent: {}
+[6.864980] (rubbishbot) StdoutLine: {'line': b'copying resource/rubbishbot -> /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/ament_index/resource_index/packages\n'}
+[6.865380] (rubbishbot) StdoutLine: {'line': b'copying package.xml -> /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/share/rubbishbot\n'}
+[6.865576] (rubbishbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.926949] (rubbishbot) StdoutLine: {'line': b"removing '/home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.927689] (rubbishbot) StdoutLine: {'line': b'Copying ../build/rubbishbot/rubbishbot.egg-info to /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/python3.8/site-packages/rubbishbot-0.0.0-py3.8.egg-info\n'}
+[6.929538] (rubbishbot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.962921] (-) TimerEvent: {}
+[7.061052] (rubbishbot) StdoutLine: {'line': b'Installing mission_manager script to /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/rubbishbot\n'}
+[7.061762] (rubbishbot) StdoutLine: {'line': b'Installing pose_setter script to /home/agilex/ros2_rubbishbot_ws/src/install/rubbishbot/lib/rubbishbot\n'}
+[7.063393] (rubbishbot) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/ros2_rubbishbot_ws/src/build/rubbishbot/install.log'\n"}
+[7.063837] (-) TimerEvent: {}
+[7.164287] (-) TimerEvent: {}
+[7.166787] (rubbishbot) CommandEnded: {'returncode': 0}
+[7.266933] (-) TimerEvent: {}
+[7.368865] (-) TimerEvent: {}
+[7.469535] (-) TimerEvent: {}
+[7.573191] (-) TimerEvent: {}
+[7.674932] (-) TimerEvent: {}
+[7.778705] (-) TimerEvent: {}
+[7.883490] (-) TimerEvent: {}
+[7.984076] (-) TimerEvent: {}
+[8.089175] (-) TimerEvent: {}
+[8.137330] (rubbishbot) JobEnded: {'identifier': 'rubbishbot', 'rc': 0}
+[8.139565] (-) EventReactorShutdown: {}

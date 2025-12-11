@@ -1,0 +1,6 @@
+source;share/rubbishbot/hook/pythonpath.ps1
+source;share/rubbishbot/hook/pythonpath.dsv
+source;share/rubbishbot/hook/pythonpath.sh
+source;share/rubbishbot/hook/ament_prefix_path.ps1
+source;share/rubbishbot/hook/ament_prefix_path.dsv
+source;share/rubbishbot/hook/ament_prefix_path.sh
